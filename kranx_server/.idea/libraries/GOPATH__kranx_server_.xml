@@ -1,0 +1,106 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;kranx_server&gt;">
+    <CLASSES>
+      <root url="file://C:/Programming/Go/src/strings" />
+      <root url="file://C:/Programming/Go/src/google.golang.org" />
+      <root url="file://C:/Programming/Go/src/vendor" />
+      <root url="file://C:/Programming/Go/src/debug" />
+      <root url="file://C:/Programming/Go/src/os" />
+      <root url="file://C:/Programming/Go/src/builtin" />
+      <root url="file://C:/Programming/Go/src/go" />
+      <root url="file://C:/Programming/Go/src/plugin" />
+      <root url="file://C:/Programming/Go/src/bytes" />
+      <root url="file://C:/Programming/Go/src/time" />
+      <root url="file://C:/Programming/Go/src/container" />
+      <root url="file://C:/Programming/Go/src/mime" />
+      <root url="file://C:/Programming/Go/src/fmt" />
+      <root url="file://C:/Programming/Go/src/path" />
+      <root url="file://C:/Programming/Go/src/reflect" />
+      <root url="file://C:/Programming/Go/src/context" />
+      <root url="file://C:/Programming/Go/src/html" />
+      <root url="file://C:/Programming/Go/src/text" />
+      <root url="file://C:/Programming/Go/src/net" />
+      <root url="file://C:/Programming/Go/src/image" />
+      <root url="file://C:/Programming/Go/src/compress" />
+      <root url="file://C:/Programming/Go/src/io" />
+      <root url="file://C:/Programming/Go/src/testing" />
+      <root url="file://C:/Programming/Go/src/index" />
+      <root url="file://C:/Programming/Go/src/archive" />
+      <root url="file://C:/Programming/Go/src/sort" />
+      <root url="file://C:/Programming/Go/src/encoding" />
+      <root url="file://C:/Programming/Go/src/sync" />
+      <root url="file://C:/Programming/Go/src/crypto" />
+      <root url="file://C:/Programming/Go/src/github.com" />
+      <root url="file://C:/Programming/Go/src/strconv" />
+      <root url="file://C:/Programming/Go/src/unicode" />
+      <root url="file://C:/Programming/Go/src/cmd" />
+      <root url="file://C:/Programming/Go/src/math" />
+      <root url="file://C:/Programming/Go/src/errors" />
+      <root url="file://C:/Programming/Go/src/hash" />
+      <root url="file://C:/Programming/Go/src/regexp" />
+      <root url="file://C:/Programming/Go/src/syscall" />
+      <root url="file://C:/Programming/Go/src/bufio" />
+      <root url="file://C:/Programming/Go/src/internal" />
+      <root url="file://C:/Programming/Go/src/expvar" />
+      <root url="file://C:/Programming/Go/src/flag" />
+      <root url="file://C:/Programming/Go/src/runtime" />
+      <root url="file://C:/Programming/Go/src/log" />
+      <root url="file://C:/Programming/Go/src/unsafe" />
+      <root url="file://C:/Programming/Go/src/database" />
+      <root url="file://C:/Programming/Go/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/Programming/Go/src/strings" />
+      <root url="file://C:/Programming/Go/src/google.golang.org" />
+      <root url="file://C:/Programming/Go/src/vendor" />
+      <root url="file://C:/Programming/Go/src/debug" />
+      <root url="file://C:/Programming/Go/src/os" />
+      <root url="file://C:/Programming/Go/src/builtin" />
+      <root url="file://C:/Programming/Go/src/go" />
+      <root url="file://C:/Programming/Go/src/plugin" />
+      <root url="file://C:/Programming/Go/src/bytes" />
+      <root url="file://C:/Programming/Go/src/time" />
+      <root url="file://C:/Programming/Go/src/container" />
+      <root url="file://C:/Programming/Go/src/mime" />
+      <root url="file://C:/Programming/Go/src/fmt" />
+      <root url="file://C:/Programming/Go/src/path" />
+      <root url="file://C:/Programming/Go/src/reflect" />
+      <root url="file://C:/Programming/Go/src/context" />
+      <root url="file://C:/Programming/Go/src/html" />
+      <root url="file://C:/Programming/Go/src/text" />
+      <root url="file://C:/Programming/Go/src/net" />
+      <root url="file://C:/Programming/Go/src/image" />
+      <root url="file://C:/Programming/Go/src/compress" />
+      <root url="file://C:/Programming/Go/src/io" />
+      <root url="file://C:/Programming/Go/src/testing" />
+      <root url="file://C:/Programming/Go/src/index" />
+      <root url="file://C:/Programming/Go/src/archive" />
+      <root url="file://C:/Programming/Go/src/sort" />
+      <root url="file://C:/Programming/Go/src/encoding" />
+      <root url="file://C:/Programming/Go/src/sync" />
+      <root url="file://C:/Programming/Go/src/crypto" />
+      <root url="file://C:/Programming/Go/src/github.com" />
+      <root url="file://C:/Programming/Go/src/strconv" />
+      <root url="file://C:/Programming/Go/src/unicode" />
+      <root url="file://C:/Programming/Go/src/cmd" />
+      <root url="file://C:/Programming/Go/src/math" />
+      <root url="file://C:/Programming/Go/src/errors" />
+      <root url="file://C:/Programming/Go/src/hash" />
+      <root url="file://C:/Programming/Go/src/regexp" />
+      <root url="file://C:/Programming/Go/src/syscall" />
+      <root url="file://C:/Programming/Go/src/bufio" />
+      <root url="file://C:/Programming/Go/src/internal" />
+      <root url="file://C:/Programming/Go/src/expvar" />
+      <root url="file://C:/Programming/Go/src/flag" />
+      <root url="file://C:/Programming/Go/src/runtime" />
+      <root url="file://C:/Programming/Go/src/log" />
+      <root url="file://C:/Programming/Go/src/unsafe" />
+      <root url="file://C:/Programming/Go/src/database" />
+      <root url="file://C:/Programming/Go/src/golang.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

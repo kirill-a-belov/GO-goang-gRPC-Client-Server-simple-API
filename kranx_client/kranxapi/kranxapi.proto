@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package kranx_rpc;
+
+// Добавляем ключи
+message AddRequest {
+  string key = 1;
+  string value = 2;
+}
+message AddResponse {
+  string message = 1;
+}
+
+// Получаем ключи
+message GetRequest {
+  string key = 1;
+}
+message GetResponse {
+  string value = 1;
+}
+
+// Удаляем ключи
+message DelRequest {
+  string key = 1;
+}
+message DelResponse {
+  string message = 1;
+}
+
+
+// Описываем службы сервера
+service KranxApi {
+  rpc AddData (AddRequest) returns (AddResponse) {}
+  rpc GetData (GetRequest) returns (GetResponse) {}
+  rpc DelData (DelRequest) returns (DelResponse) {}
+}
