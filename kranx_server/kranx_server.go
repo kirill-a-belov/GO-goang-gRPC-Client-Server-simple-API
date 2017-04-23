@@ -7,14 +7,15 @@ package main
 
 import (
 	"./storage"
-
 	"fmt"
 	"golang.org/x/net/context"
 	pb "./kranxapi"
+
 	"net"
 	"log"
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/grpc"
+
 )
 const(
 	SERVER_PORT = ":54321"
@@ -41,6 +42,7 @@ func (s *server) DelData(ctx context.Context, input *pb.DelRequest) (*pb.DelResp
 }
 
 func main() {
+
 
 	lis, err := net.Listen("tcp", SERVER_PORT)
 	if err != nil {
@@ -70,5 +72,11 @@ func main() {
 	storage.PrintMemory()
 	fmt.Println(storage.AddToMemory("11", "@"))
 	storage.PrintMemory()
+	fmt.Println(storage.AddToMemory("12", "@"))
+	storage.PrintMemory()
+	fmt.Println(storage.AddToMemory("13", "@"))
+	storage.PrintMemory()
+	fmt.Println(storage.GetFromMemory("344"))
 	*/
+
 }

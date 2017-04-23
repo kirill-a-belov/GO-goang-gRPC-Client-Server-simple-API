@@ -25,7 +25,7 @@ const (
 var client pb.KranxApiClient
 // WEB сервер
 var server = &http.Server{
-	Addr:           ":80",
+	Addr:           ":8080",
 	Handler:        nil,
 	ReadTimeout:    1000 * time.Second,
 	WriteTimeout:   1000 * time.Second,
@@ -49,6 +49,9 @@ func GetData(key string)string{
 	r, err := client.GetData(context.Background(), &pb.GetRequest{Key: key})
 	if err != nil {
 		log.Fatalf("Could not get data: %v", err)
+	}
+	if (r.Value == "") {
+		return "!!!Empty value!!! *-Important notice: This is an actually empty value!"
 	}
 	return r.Value
 
@@ -81,15 +84,15 @@ func requestHandler(w http.ResponseWriter, r *http.Request) {
 	switch strings.ToUpper(match[0]) {
 	case "GET":
 		p := statVars{Rtype: "GET", Rkey: match[1], Response: GetData(match[1]) }
-		t, _ := template.ParseFiles("./statistic.html")
+		t, _ := template.ParseFiles("statistic.html")
 		t.Execute(w, p)
 	case "PUT":
 		p := statVars{Rtype: "GET", Rkey: match[1], Response: AddData(match[1],match[2]) }
-		t, _ := template.ParseFiles("./statistic.html")
+		t, _ := template.ParseFiles("statistic.html")
 		t.Execute(w, p)
 	case "DELETE":
 		p := statVars{Rtype: "GET", Rkey: match[1], Response: DelData(match[1]) }
-		t, _ := template.ParseFiles("./statistic.html")
+		t, _ := template.ParseFiles("statistic.html")
 		t.Execute(w, p)
 
 	}
