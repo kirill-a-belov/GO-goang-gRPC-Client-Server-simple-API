@@ -1,0 +1,11 @@
+kranx_server:
+    build: kranx_server
+    restart: always
+
+kranx_client:
+    build: kranx_client
+    links:
+      - kranx_server:kranx_server
+    ports:
+      - 80:80
+    restart: always
