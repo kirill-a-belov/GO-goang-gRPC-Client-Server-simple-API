@@ -3,5 +3,5 @@ MAINTAINER Kirill Belov <kirill.a.belov@gmail.com>
 
 ADD kranx_server /usr/bin/kranx/kranx_server
 
-ENTRYPOINT ["/usr/bin/kranx/kranx_server"]
+CMD ["/usr/bin/kranx/kranx_server"]
 

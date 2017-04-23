@@ -7,5 +7,7 @@ ADD kranx_client /usr/bin/kranx/kranx_client
 WORKDIR /usr/bin/kranx/
 
 
-ENTRYPOINT ["kranx_client"]
+CMD ["/usr/bin/kranx/kranx_client"]
+
+EXPOSE 80
 
